@@ -17,8 +17,8 @@ const MODULES = [
         desc: "Из двух листов А4 и скотча строим мост пролётом 20 см, который выдержит учебник.",
         subject: "Окружающий мир · Технология",
         question: "Как перебраться через пропасть, если у тебя только два листа бумаги и скотч?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=p5y3fn5ya26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=p5y3fn5ya26",
       },
       {
         id: 2,
@@ -26,8 +26,8 @@ const MODULES = [
         desc: "Создаём флюгер и дождемер, учимся предсказывать погоду без интернета.",
         subject: "Окружающий мир · Математика",
         question: "Как предсказать дождь без интернета?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=ps311t53j26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=ps311t53j26",
       },
       {
         id: 3,
@@ -35,8 +35,8 @@ const MODULES = [
         desc: "Конструктор историй: собираем рассказ из «кирпичиков»-предложений.",
         subject: "Русский язык · Литературное чтение",
         question: "Сможет ли компьютер расставить предложения сказки правильно?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=pp84mmuvt26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=pp84mmuvt26",
       },
       {
         id: 4,
@@ -44,8 +44,8 @@ const MODULES = [
         desc: "Строим теневой театр и исследуем, почему тень меняет размер.",
         subject: "Окружающий мир · ИЗО",
         question: "Как с помощью тени рассказать историю?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=pwsuorwxk26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=pwsuorwxk26",
       },
       {
         id: 5,
@@ -53,8 +53,8 @@ const MODULES = [
         desc: "Составляем алгоритм для робота: «вперёд», «налево», «направо».",
         subject: "Математика · Технология",
         question: "Как научить робота найти сокровище?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=pqcxjjqzc26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=pqcxjjqzc26",
       },
     ],
   },
@@ -72,8 +72,8 @@ const MODULES = [
         desc: "Мастерим модель водяного колеса и заставляем воду работать.",
         subject: "Окружающий мир · Технология",
         question: "Как заставить воду поднять груз?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=pf2uwe7i526",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=pf2uwe7i526",
       },
       {
         id: 7,
@@ -81,8 +81,8 @@ const MODULES = [
         desc: "Закладываем эксперимент по проращиванию фасоли в трёх разных условиях.",
         subject: "Окружающий мир · Математика",
         question: "Что нужно семечку, чтобы оно проснулось?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=pqqnmbkvn26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=pqqnmbkvn26",
       },
       {
         id: 8,
@@ -90,8 +90,8 @@ const MODULES = [
         desc: "Лепим лодку из пластилина, которая удержит 10 монет на воде.",
         subject: "Окружающий мир · Математика",
         question: "Почему тяжёлый корабль не тонет?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=pa7h03dmt26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=pa7h03dmt26",
       },
       {
         id: 9,
@@ -99,8 +99,8 @@ const MODULES = [
         desc: "Коллективный макет микрорайона: дома, парки, дороги, школы.",
         subject: "Окружающий мир · Математика · ИЗО",
         question: "Как спланировать город, где удобно всем?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=pqb59vhdn26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=pqb59vhdn26",
       },
       {
         id: 10,
@@ -108,8 +108,8 @@ const MODULES = [
         desc: "Собираем змея из бумаги и трубочек, изучаем подъёмную силу ветра.",
         subject: "Окружающий мир · Технология",
         question: "Как заставить бумагу летать с помощью ветра?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=p4kyv2hjc26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=p4kyv2hjc26",
       },
     ],
   },
@@ -127,8 +127,8 @@ const MODULES = [
         desc: "Пишем «код» для постройки башни и проверяем его на соседе.",
         subject: "Математика · Технология",
         question: "Можно ли записать инструкцию по сборке так, чтобы её понял компьютер?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=p3iu88a8a26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=p3iu88a8a26",
       },
       {
         id: 12,
@@ -136,8 +136,8 @@ const MODULES = [
         desc: "Рисуем карту класса с масштабом и прячем «клад».",
         subject: "Окружающий мир · Математика",
         question: "Как нарисовать карту, чтобы другой точно нашёл клад?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=p9v84tkva26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=p9v84tkva26",
       },
       {
         id: 13,
@@ -145,8 +145,8 @@ const MODULES = [
         desc: "Изучаем форму крыла птицы и плавника рыбы, создаём свои модели.",
         subject: "Окружающий мир · Технология",
         question: "Чему люди могут научиться у птиц и рыб?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=p5af5ruoa26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=p5af5ruoa26",
       },
       {
         id: 14,
@@ -154,8 +154,8 @@ const MODULES = [
         desc: "Из газет и ткани создаём упаковку без пластика.",
         subject: "Окружающий мир · Технология · ИЗО",
         question: "Как упаковать подарок, не используя пластик?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=p8a7vrpqa26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=p8a7vrpqa26",
       },
       {
         id: 15,
@@ -163,8 +163,8 @@ const MODULES = [
         desc: "Строим макет МКС из втулок, стаканчиков и фольги — не менее трёх модулей.",
         subject: "Окружающий мир · Технология · ИЗО",
         question: "Как построить станцию, где космонавты могут жить в невесомости?",
-        link: "",
-        qr: "",
+        link: "https://learningapps.org/watch?v=pd29un6ia26",
+        qr: "https://api.qrserver.com/v1/create-qr-code/?size=80x80&data=https://learningapps.org/watch?v=pd29un6ia26",
       },
     ],
   },
@@ -334,7 +334,9 @@ function TaskCard({
         >
           <Icon name="QrCode" size={10} className="shrink-0 text-foreground/40" />
           {task.qr ? (
-            <img src={task.qr} alt="QR" className="h-8 w-8 object-contain" />
+            <a href={task.link} target="_blank" rel="noopener noreferrer">
+              <img src={task.qr} alt={`QR занятие ${task.id}`} className="h-12 w-12 rounded object-contain" />
+            </a>
           ) : (
             <span className="font-mono text-[10px] italic text-foreground/25">QR не добавлен</span>
           )}
