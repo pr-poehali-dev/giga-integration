@@ -2,9 +2,6 @@ import { Shader, ChromaFlow, Swirl } from "shaders/react"
 import { CustomCursor } from "@/components/custom-cursor"
 import { GrainOverlay } from "@/components/grain-overlay"
 import { TasksSection } from "@/components/sections/tasks-section"
-import { ServicesSection } from "@/components/sections/services-section"
-import { AboutSection } from "@/components/sections/about-section"
-import { ContactSection } from "@/components/sections/contact-section"
 import { MagneticButton } from "@/components/magnetic-button"
 import { useRef, useEffect, useState } from "react"
 
@@ -226,7 +223,7 @@ export default function Index() {
         </button>
 
         <div className="hidden items-center gap-8 md:flex">
-          {["Главная", "Работы", "Услуги", "О нас", "Контакты"].map((item, index) => (
+          {["Главная", "Задания"].map((item, index) => (
             <button
               key={item}
               onClick={() => scrollToSection(index)}
@@ -244,8 +241,8 @@ export default function Index() {
           ))}
         </div>
 
-        <MagneticButton variant="secondary" onClick={() => scrollToSection(4)}>
-          Начать
+        <MagneticButton variant="secondary" onClick={() => scrollToSection(1)}>
+          К заданиям
         </MagneticButton>
       </nav>
 
@@ -277,12 +274,9 @@ export default function Index() {
               <MagneticButton
                 size="lg"
                 variant="primary"
-                onClick={() => scrollToSection(4)}
+                onClick={() => scrollToSection(1)}
               >
-                Обсудить проект
-              </MagneticButton>
-              <MagneticButton size="lg" variant="secondary" onClick={() => scrollToSection(2)}>
-                Наши услуги
+                Перейти к заданиям
               </MagneticButton>
             </div>
           </div>
@@ -298,9 +292,6 @@ export default function Index() {
         </section>
 
         <TasksSection />
-        <ServicesSection />
-        <AboutSection scrollToSection={scrollToSection} />
-        <ContactSection />
       </div>
 
       <style>{`
