@@ -6,46 +6,166 @@ const MODULES = [
   {
     id: "M1",
     title: "Модуль 1",
-    subtitle: "Наука и технологии",
+    subtitle: "Природа и технологии",
     color: "from-blue-500/20 to-cyan-500/10",
     accent: "text-cyan-300",
     borderColor: "border-cyan-400/30",
     tasks: [
-      { id: 1, title: "Законы Ньютона", desc: "Исследуем силы и движение через эксперименты", link: "", qr: "" },
-      { id: 2, title: "Оптика и свет", desc: "Преломление, отражение и спектр цветов", link: "", qr: "" },
-      { id: 3, title: "Электрические цепи", desc: "Собираем простые схемы и изучаем ток", link: "", qr: "" },
-      { id: 4, title: "Химические реакции", desc: "Наблюдаем превращения веществ", link: "", qr: "" },
-      { id: 5, title: "Экосистемы", desc: "Изучаем взаимосвязи в природе", link: "", qr: "" },
+      {
+        id: 1,
+        title: "Мост, который выдержит",
+        desc: "Из двух листов А4 и скотча строим мост пролётом 20 см, который выдержит учебник.",
+        subject: "Окружающий мир · Технология",
+        question: "Как перебраться через пропасть, если у тебя только два листа бумаги и скотч?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 2,
+        title: "Погодная станция",
+        desc: "Создаём флюгер и дождемер, учимся предсказывать погоду без интернета.",
+        subject: "Окружающий мир · Математика",
+        question: "Как предсказать дождь без интернета?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 3,
+        title: "Секреты текста",
+        desc: "Конструктор историй: собираем рассказ из «кирпичиков»-предложений.",
+        subject: "Русский язык · Литературное чтение",
+        question: "Сможет ли компьютер расставить предложения сказки правильно?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 4,
+        title: "Тень и свет",
+        desc: "Строим теневой театр и исследуем, почему тень меняет размер.",
+        subject: "Окружающий мир · ИЗО",
+        question: "Как с помощью тени рассказать историю?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 5,
+        title: "Маршрут робота",
+        desc: "Составляем алгоритм для робота: «вперёд», «налево», «направо».",
+        subject: "Математика · Технология",
+        question: "Как научить робота найти сокровище?",
+        link: "",
+        qr: "",
+      },
     ],
   },
   {
     id: "M2",
     title: "Модуль 2",
-    subtitle: "Технологии и инженерия",
+    subtitle: "Вода, воздух, жизнь",
     color: "from-violet-500/20 to-purple-500/10",
     accent: "text-violet-300",
     borderColor: "border-violet-400/30",
     tasks: [
-      { id: 6, title: "3D-моделирование", desc: "Создаём объекты в цифровом пространстве", link: "", qr: "" },
-      { id: 7, title: "Робототехника", desc: "Программируем и управляем роботами", link: "", qr: "" },
-      { id: 8, title: "Мосты и конструкции", desc: "Проектируем прочные сооружения", link: "", qr: "" },
-      { id: 9, title: "Возобновляемая энергия", desc: "Солнечные панели, ветер и вода", link: "", qr: "" },
-      { id: 10, title: "Интернет вещей", desc: "Умные устройства вокруг нас", link: "", qr: "" },
+      {
+        id: 6,
+        title: "Водяная мельница",
+        desc: "Мастерим модель водяного колеса и заставляем воду работать.",
+        subject: "Окружающий мир · Технология",
+        question: "Как заставить воду поднять груз?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 7,
+        title: "Секреты семян",
+        desc: "Закладываем эксперимент по проращиванию фасоли в трёх разных условиях.",
+        subject: "Окружающий мир · Математика",
+        question: "Что нужно семечку, чтобы оно проснулось?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 8,
+        title: "Спасательный круг",
+        desc: "Лепим лодку из пластилина, которая удержит 10 монет на воде.",
+        subject: "Окружающий мир · Математика",
+        question: "Почему тяжёлый корабль не тонет?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 9,
+        title: "Город будущего",
+        desc: "Коллективный макет микрорайона: дома, парки, дороги, школы.",
+        subject: "Окружающий мир · Математика · ИЗО",
+        question: "Как спланировать город, где удобно всем?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 10,
+        title: "Воздушный змей",
+        desc: "Собираем змея из бумаги и трубочек, изучаем подъёмную силу ветра.",
+        subject: "Окружающий мир · Технология",
+        question: "Как заставить бумагу летать с помощью ветра?",
+        link: "",
+        qr: "",
+      },
     ],
   },
   {
     id: "M3",
     title: "Модуль 3",
-    subtitle: "Арт, математика и креатив",
+    subtitle: "Код, природа и космос",
     color: "from-orange-500/20 to-amber-500/10",
     accent: "text-amber-300",
     borderColor: "border-amber-400/30",
     tasks: [
-      { id: 11, title: "Геометрия в природе", desc: "Фракталы, спирали и золотое сечение", link: "", qr: "" },
-      { id: 12, title: "Цифровое искусство", desc: "Создаём картины с помощью алгоритмов", link: "", qr: "" },
-      { id: 13, title: "Музыка и математика", desc: "Ритм, частоты и волновые паттерны", link: "", qr: "" },
-      { id: 14, title: "Архитектура будущего", desc: "Проектируем здания мечты", link: "", qr: "" },
-      { id: 15, title: "Итоговый проект", desc: "Объединяем все знания в одном творении", link: "", qr: "" },
+      {
+        id: 11,
+        title: "Кодовая башня",
+        desc: "Пишем «код» для постройки башни и проверяем его на соседе.",
+        subject: "Математика · Технология",
+        question: "Можно ли записать инструкцию по сборке так, чтобы её понял компьютер?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 12,
+        title: "Карта сокровищ",
+        desc: "Рисуем карту класса с масштабом и прячем «клад».",
+        subject: "Окружающий мир · Математика",
+        question: "Как нарисовать карту, чтобы другой точно нашёл клад?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 13,
+        title: "Бионика: крылья и ласты",
+        desc: "Изучаем форму крыла птицы и плавника рыбы, создаём свои модели.",
+        subject: "Окружающий мир · Технология",
+        question: "Чему люди могут научиться у птиц и рыб?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 14,
+        title: "Эко-упаковка",
+        desc: "Из газет и ткани создаём упаковку без пластика.",
+        subject: "Окружающий мир · Технология · ИЗО",
+        question: "Как упаковать подарок, не используя пластик?",
+        link: "",
+        qr: "",
+      },
+      {
+        id: 15,
+        title: "Космическая станция",
+        desc: "Строим макет МКС из втулок, стаканчиков и фольги — не менее трёх модулей.",
+        subject: "Окружающий мир · Технология · ИЗО",
+        question: "Как построить станцию, где космонавты могут жить в невесомости?",
+        link: "",
+        qr: "",
+      },
     ],
   },
 ]
@@ -53,30 +173,31 @@ const MODULES = [
 export function TasksSection() {
   const { ref, isVisible } = useReveal(0.1)
   const [activeModule, setActiveModule] = useState(0)
+  const [expanded, setExpanded] = useState<number | null>(null)
 
   const module = MODULES[activeModule]
 
   return (
     <section
       ref={ref}
-      className="flex h-screen w-screen shrink-0 snap-start flex-col px-6 pt-20 pb-6 md:px-12 md:pt-24 lg:px-16"
+      className="flex h-screen w-screen shrink-0 snap-start flex-col px-6 pt-20 pb-4 md:px-12 md:pt-20 lg:px-16"
     >
-      <div className="mx-auto w-full max-w-7xl flex flex-col h-full">
+      <div className="mx-auto flex h-full w-full max-w-7xl flex-col">
         {/* Header */}
         <div
-          className={`mb-6 transition-all duration-700 ${
+          className={`mb-4 transition-all duration-700 ${
             isVisible ? "translate-x-0 opacity-100" : "-translate-x-12 opacity-0"
           }`}
         >
           <h2 className="mb-1 font-sans text-4xl font-light tracking-tight text-foreground md:text-5xl lg:text-6xl">
             Задания
           </h2>
-          <p className="font-mono text-sm text-foreground/60">/ 15 интерактивных заданий по STEAM</p>
+          <p className="font-mono text-sm text-foreground/60">/ 15 интерактивных занятий по STEAM</p>
         </div>
 
         {/* Module Tabs */}
         <div
-          className={`mb-6 flex gap-3 transition-all duration-700 ${
+          className={`mb-4 flex flex-wrap gap-2 transition-all duration-700 ${
             isVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
           }`}
           style={{ transitionDelay: "150ms" }}
@@ -84,8 +205,8 @@ export function TasksSection() {
           {MODULES.map((m, i) => (
             <button
               key={m.id}
-              onClick={() => setActiveModule(i)}
-              className={`rounded-full border px-4 py-2 font-mono text-xs transition-all duration-300 ${
+              onClick={() => { setActiveModule(i); setExpanded(null) }}
+              className={`rounded-full border px-4 py-1.5 font-mono text-xs transition-all duration-300 ${
                 activeModule === i
                   ? "border-foreground/40 bg-foreground/20 text-foreground backdrop-blur-md"
                   : "border-foreground/10 text-foreground/50 hover:border-foreground/20 hover:text-foreground/80"
@@ -98,9 +219,7 @@ export function TasksSection() {
 
         {/* Tasks Grid */}
         <div
-          className={`flex-1 overflow-hidden transition-all duration-500 ${
-            isVisible ? "opacity-100" : "opacity-0"
-          }`}
+          className={`flex-1 overflow-hidden transition-all duration-500 ${isVisible ? "opacity-100" : "opacity-0"}`}
           style={{ transitionDelay: "300ms" }}
         >
           <div className="grid h-full grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-5">
@@ -111,8 +230,9 @@ export function TasksSection() {
                 index={i}
                 accent={module.accent}
                 borderColor={module.borderColor}
-                gradientColor={module.color}
                 isVisible={isVisible}
+                isExpanded={expanded === task.id}
+                onToggle={() => setExpanded(expanded === task.id ? null : task.id)}
               />
             ))}
           </div>
@@ -127,19 +247,21 @@ function TaskCard({
   index,
   accent,
   borderColor,
-  gradientColor,
   isVisible,
+  isExpanded,
+  onToggle,
 }: {
-  task: { id: number; title: string; desc: string; link: string; qr: string }
+  task: { id: number; title: string; desc: string; subject: string; question: string; link: string; qr: string }
   index: number
   accent: string
   borderColor: string
-  gradientColor: string
   isVisible: boolean
+  isExpanded: boolean
+  onToggle: () => void
 }) {
   return (
     <div
-      className={`group relative flex flex-col rounded-2xl border bg-gradient-to-br p-4 backdrop-blur-md transition-all duration-700 hover:scale-[1.02] ${borderColor} ${gradientColor} ${
+      className={`group relative flex flex-col overflow-hidden rounded-2xl border backdrop-blur-md transition-all duration-700 hover:scale-[1.015] ${borderColor} ${
         isVisible ? "translate-y-0 opacity-100" : "translate-y-12 opacity-0"
       }`}
       style={{
@@ -147,54 +269,76 @@ function TaskCard({
         background: "rgba(255,255,255,0.04)",
       }}
     >
-      {/* Number */}
-      <div className={`mb-3 flex items-center justify-between`}>
-        <span className={`font-mono text-xs font-bold ${accent}`}>
-          #{String(task.id).padStart(2, "0")}
-        </span>
-        <div className="flex h-6 w-6 items-center justify-center rounded-full border border-foreground/10 bg-foreground/5">
-          <Icon name="Zap" size={11} className="text-foreground/40" />
-        </div>
-      </div>
-
-      {/* Title & Desc */}
-      <h3 className="mb-1 font-sans text-sm font-medium leading-snug text-foreground md:text-base">
-        {task.title}
-      </h3>
-      <p className="mb-4 flex-1 font-mono text-xs leading-relaxed text-foreground/55">
-        {task.desc}
-      </p>
-
-      {/* Link */}
-      <div className={`mb-2 flex items-center gap-2 rounded-lg border p-2 transition-colors group-hover:border-foreground/20 ${borderColor}`}
-        style={{ background: "rgba(255,255,255,0.03)" }}
-      >
-        <Icon name="Link" size={11} className="shrink-0 text-foreground/40" />
-        {task.link ? (
-          <a
-            href={task.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`truncate font-mono text-xs ${accent} hover:underline`}
+      <div className={`flex flex-col p-3 md:p-4 ${isExpanded ? "overflow-y-auto" : "overflow-hidden"} flex-1`}>
+        {/* Number + toggle */}
+        <div className="mb-2 flex items-center justify-between">
+          <span className={`font-mono text-xs font-bold ${accent}`}>#{String(task.id).padStart(2, "0")}</span>
+          <button
+            onClick={onToggle}
+            className="flex h-5 w-5 items-center justify-center rounded-full border border-foreground/10 bg-foreground/5 transition-colors hover:bg-foreground/10"
           >
-            {task.link}
-          </a>
-        ) : (
-          <span className="font-mono text-xs text-foreground/25 italic">Ссылка не добавлена</span>
-        )}
-      </div>
+            <Icon name={isExpanded ? "ChevronUp" : "ChevronDown"} size={10} className="text-foreground/50" />
+          </button>
+        </div>
 
-      {/* QR */}
-      <div
-        className={`flex items-center justify-center gap-2 rounded-lg border p-2 transition-colors group-hover:border-foreground/20 ${borderColor}`}
-        style={{ background: "rgba(255,255,255,0.03)" }}
-      >
-        <Icon name="QrCode" size={11} className="shrink-0 text-foreground/40" />
-        {task.qr ? (
-          <img src={task.qr} alt="QR" className="h-8 w-8 object-contain" />
-        ) : (
-          <span className="font-mono text-xs text-foreground/25 italic">QR не добавлен</span>
+        {/* Title */}
+        <h3 className="mb-1 font-sans text-sm font-medium leading-snug text-foreground md:text-base">
+          {task.title}
+        </h3>
+
+        {/* Subject badge */}
+        <p className={`mb-2 font-mono text-[10px] leading-tight ${accent} opacity-70`}>{task.subject}</p>
+
+        {/* Description */}
+        <p className="mb-3 font-mono text-xs leading-relaxed text-foreground/60">{task.desc}</p>
+
+        {/* Expanded: probing question */}
+        {isExpanded && (
+          <div className="mb-3">
+            <div
+              className={`rounded-lg border p-2 ${borderColor}`}
+              style={{ background: "rgba(255,255,255,0.03)" }}
+            >
+              <p className="mb-1 font-mono text-[10px] text-foreground/40">Проблемный вопрос</p>
+              <p className="font-mono text-xs leading-relaxed italic text-foreground/80">«{task.question}»</p>
+            </div>
+          </div>
         )}
+
+        <div className="flex-1" />
+
+        {/* Link */}
+        <div
+          className={`mb-2 flex items-center gap-1.5 rounded-lg border p-2 transition-colors group-hover:border-foreground/20 ${borderColor}`}
+          style={{ background: "rgba(255,255,255,0.03)" }}
+        >
+          <Icon name="Link" size={10} className="shrink-0 text-foreground/40" />
+          {task.link ? (
+            <a
+              href={task.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`truncate font-mono text-[10px] ${accent} hover:underline`}
+            >
+              {task.link}
+            </a>
+          ) : (
+            <span className="font-mono text-[10px] italic text-foreground/25">Ссылка не добавлена</span>
+          )}
+        </div>
+
+        {/* QR */}
+        <div
+          className={`flex items-center justify-center gap-1.5 rounded-lg border p-2 transition-colors group-hover:border-foreground/20 ${borderColor}`}
+          style={{ background: "rgba(255,255,255,0.03)" }}
+        >
+          <Icon name="QrCode" size={10} className="shrink-0 text-foreground/40" />
+          {task.qr ? (
+            <img src={task.qr} alt="QR" className="h-8 w-8 object-contain" />
+          ) : (
+            <span className="font-mono text-[10px] italic text-foreground/25">QR не добавлен</span>
+          )}
+        </div>
       </div>
     </div>
   )
